@@ -1,0 +1,15 @@
+group 'ca.stackrabbit'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.9.2'
+    compile 'joda-time:joda-time:2.9.4'
+}
